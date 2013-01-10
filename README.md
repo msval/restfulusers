@@ -8,8 +8,7 @@ To keep the things as simple as possible all data are stored in memory without p
 
 ### Service usage examples
 
-* GET http://localhost:8080/restfulusers/users
-
+#### GET http://localhost:8080/restfulusers/users
 ```json
 [
     {
@@ -45,8 +44,7 @@ To keep the things as simple as possible all data are stored in memory without p
 ]
 ```
 
-* GET http://localhost:8080/restfulusers/users/1
-
+#### GET http://localhost:8080/restfulusers/users/1
 ```json
 {
     "id": "1",
@@ -56,12 +54,10 @@ To keep the things as simple as possible all data are stored in memory without p
 }
 ```
 
-* POST http://localhost:8080/restfulusers/users
-
+#### POST http://localhost:8080/restfulusers/users
 (don't forget header Content-Type application/json; charset=UTF-8)
  
-* DELETE http://localhost:8080/restfulusers/users/0
+#### DELETE http://localhost:8080/restfulusers/users/0
 
-* PUT http://localhost:8080/restfulusers/users
-
+#### PUT http://localhost:8080/restfulusers/users
 (don't forget header Content-Type application/json; charset=UTF-8)
