@@ -1,15 +1,13 @@
-restfulusers
-============
+### restfulusers
 
-Simple project boilerplate for creating json rest service
+This project is a backend to https://github.com/msval/backbonebasics
 
-This example holds all data in memory.
+Also, I use this project as a boilerplate in scaffolding my json rest services.
 
-GET
----
-http://localhost:8080/restfulusers/users
+To keep the things as simple as possible all data are stored in memory without persistence.
 
-(some default data to get started):
+* GET http://localhost:8080/restfulusers/users
+'''json
 [
     {
         "id": "3",
@@ -42,6 +40,7 @@ http://localhost:8080/restfulusers/users
         "age": "8"
     }
 ]
+'''
 
 GET
 ---
