@@ -1,5 +1,4 @@
 ## restfulusers
-
 This project is a backend to https://github.com/msval/backbonebasics
 
 Also, I use this project as a boilerplate in scaffolding my json rest services.
@@ -58,6 +57,7 @@ To keep the things as simple as possible all data are stored in memory without p
 (don't forget header Content-Type application/json; charset=UTF-8)
  
 #### DELETE http://localhost:8080/restfulusers/users/0
+no special headers needed here
 
 #### PUT http://localhost:8080/restfulusers/users
 (don't forget header Content-Type application/json; charset=UTF-8)
