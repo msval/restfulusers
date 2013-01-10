@@ -7,7 +7,8 @@ Also, I use this project as a boilerplate in scaffolding my json rest services.
 To keep the things as simple as possible all data are stored in memory without persistence.
 
 * GET http://localhost:8080/restfulusers/users
-'''json
+
+```json
 [
     {
         "id": "3",
@@ -40,7 +41,7 @@ To keep the things as simple as possible all data are stored in memory without p
         "age": "8"
     }
 ]
-'''
+```
 
 GET
 ---
