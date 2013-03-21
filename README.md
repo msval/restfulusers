@@ -3,7 +3,7 @@ This project is a backend to https://github.com/msval/backbonebasics
 
 Also, I use this project as a boilerplate in scaffolding my json rest services.
 
-To keep the things as simple as possible all data are stored in memory without persistence.
+To keep the things as simple as possible all the data is stored in the ram without persistence.
 
 ### Service usage examples
 
